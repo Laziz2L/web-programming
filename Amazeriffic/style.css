@@ -1,7 +1,19 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
 .page-wrapper {
     display: flex;
     flex-direction: column;
     min-height: 100%;
+}
+
+.page-wrapper-top {
+    flex: 1 0 auto;
 }
 
 .lightbulb {
@@ -58,8 +70,7 @@
 
 
 .content {
-    margin-bottom: 100px;
-    flex: 1 0 auto;
+    margin-bottom: 60px;
 }
 
 .content-inner {
@@ -88,12 +99,26 @@
     margin-bottom: 5px;
 }
 
+.content-list-title {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-bottom: 7px;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
 
 .footer {
     flex: 0 0 auto;
     background-color: yellow;
     width: 100%;
-    padding: 50px 0 25px 0;
+    padding: 40px 0 25px 0;
 }
 
 .footer-inner {
@@ -103,7 +128,7 @@
 
 .footer h5 {
     font-size: 1.5rem;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
 }
 
 .sitemap {
@@ -124,24 +149,3 @@
 .sitemap-list li a:hover {
     text-decoration: underline;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
