@@ -1,3 +1,9 @@
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
 .lightbulb {
     width: 200px;
 }
@@ -51,7 +57,10 @@
 
 
 
-
+.content {
+    margin-bottom: 100px;
+    flex: 1 0 auto;
+}
 
 .content-inner {
     display: flex;
@@ -77,6 +86,43 @@
 .content-list li {
     list-style-type: circle;
     margin-bottom: 5px;
+}
+
+
+.footer {
+    flex: 0 0 auto;
+    background-color: yellow;
+    width: 100%;
+    padding: 50px 0 25px 0;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer h5 {
+    font-size: 1.5rem;
+    margin-bottom: 35px;
+}
+
+.sitemap {
+    width: 250px;
+}
+
+.sitemap-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sitemap-list li a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+.sitemap-list li a:hover {
+    text-decoration: underline;
 }
 
 
